@@ -1,16 +1,3 @@
-pesquisar .h .c, Fazer o html (Fazer o import) e fazer um cabeçalhos
-FiLA DE PRORIDADE, LISTA EM CADEADO E DUPLAMENTE CADEADO
-Pilha, FILA, LISTA ( 3 ALgoritmos )
-
-
-funcão para cada um retona nada retorna inteiro etc
-onde joga o cadastro
-onde fica tudo etc
-materializar a ideia de onde a mesma está
-
-3 a 4 listas
-
-
 Função cadastro
 
 Menu 
