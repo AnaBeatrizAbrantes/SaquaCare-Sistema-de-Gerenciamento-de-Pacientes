@@ -1,5 +1,5 @@
 
-
+<img width="367" height="137" alt="image" src="https://github.com/user-attachments/assets/39610908-26bc-4e08-b73a-60126a27859a" />
 
 # Hospital Simulado - Gerenciamento de Pacientes
 
