@@ -15,11 +15,3 @@ paciente mais antigo
 Entregas 
 1. Código fonte (.c e .h)
 Apresentar um teste de exemplo na apresentação
-
-teste de exemplo
-
-teste 2.0
-
-cacete não aguenteoasda 
-
-ME MAMA
