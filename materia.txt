@@ -12,9 +12,10 @@ Implementação das Estruturas
 - Fila: vetor (array) com controle de início e fim 
 - Fila Circular: vetor de tamanho 8 com índices circulares 
 
-Regras de Negócio - Pacientes com gravidade 4 ou 5 devem ser direcionados para Emergência - Ao atender, exibir os dados do paciente removido - Na fila circular, ao atingir a capacidade máxima, remover automaticamente o 
+Regras de Negócio - Pacientes com gravidade 4 ou 5 devem ser direcionados para Emergência - 
+Ao atender, exibir os dados do paciente removido - Na fila circular, ao atingir a capacidade máxima, remover automaticamente o 
 paciente mais antigo 
+
 Entregas 
 1. Código fonte (.c e .h)
-
-teste de exemplo
+Apresentar um teste de exemplo na apresentação
