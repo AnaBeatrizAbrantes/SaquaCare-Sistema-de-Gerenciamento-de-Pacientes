@@ -13,3 +13,5 @@ Regras de Negócio - Pacientes com gravidade 4 ou 5 devem ser direcionados para 
 paciente mais antigo 
 Entregas 
 1. Código fonte (.c e .h)
+
+teste de exemplo
