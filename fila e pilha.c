@@ -1,8 +1,9 @@
 //FILA***********************************************
 #include <stdio.h>
- 
+#include <raylib.h> // nay adicionou
+
 #define MAX_SIZE 5 
- 
+
 int fila[MAX_SIZE];  
 int frente = 0; // Inicia em 0 na linear
 int tras = -1; 
@@ -51,7 +52,8 @@ void exibirFila() {
     }
     printf("\n");
 }
- 
+
+
 int main() {
     enfileirar(10);//chamando a funcão
     enfileirar(20);
