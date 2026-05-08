@@ -29,8 +29,7 @@ void cadastrar_paciente(){
     Paciente p;
 
      printf("\nNome: ");
-    scanf(" %[^
-]", p.nome);
+    scanf(" %[^]", p.nome);
 
     printf("Idade: ");
     scanf("%d", &p.idade);
@@ -59,13 +58,13 @@ void cadastrar_paciente(){
     // o paciente é consultado 
     if (p.tipo == 2) {
 
-        if (trasConsulta == MAX - 1) {
+        if (atrasConsulta == MAX - 1) {
             printf("\nFila de consulta cheia!\n");
             return;
         }
 
-        trasConsulta++;
-        consulta[trasConsulta] = p;
+        atrasConsulta++;
+        consuta[atrasConsulta] = p;
 
         printf("\nPaciente enviado para CONSULTA!\n");
     }
@@ -73,19 +72,19 @@ void cadastrar_paciente(){
     else if (p.tipo == 3) {
 
         // Se estiver cheia remove automaticamente o Exame mais antigo : isso ajuda em memoria desnecessaria ocupando nos dados..
-        if ((trasExame + 1) % MAX_CIRCULAR == frenteExame) {
+        if ((atrasExames + 1) % MAX_CIRCULAR == frenteExames) {
 
             printf("\nFila de exames cheia!\n");
             printf("Paciente mais antigo removido automaticamente.\n");
 
-            frenteExame = (frenteExame + 1) % MAX_CIRCULAR;
+            frenteExames = (frenteExames + 1) % MAX_CIRCULAR;
         }
 
-        if (frenteExame == -1)
-            frenteExame = 0;
+        if (frenteExames == -1)
+            frenteExames = 0;
 
-        trasExame = (trasExame + 1) % MAX_CIRCULAR;
-        exames[trasExame] = p;
+        atrasExames = (atrasExames + 1) % MAX_CIRCULAR;
+        exames[atrasExames] = p;
 
         printf("\nPaciente enviado para EXAMES!\n");
     }
@@ -93,19 +92,19 @@ void cadastrar_paciente(){
 
 void atender_emergencia() {
 
-    if (frenteExame == trasExame) {
-        frenteExame = -1;
-        trasExame = -1;
+    if (frenteExames == atrasExames) {
+        frenteExames = -1;
+        atrasExames = -1;
     }
     else {
-        frenteExame = (frenteExame + 1) % MAX_CIRCULAR;
+        frenteExames = (frenteExames + 1) % MAX_CIRCULAR;
     }
 
     totalAtendidos++;
 
     printf("\nPaciente atendido no exame:\n");
-    printf("Nome: %s\n", p.nome);
-    printf("Idade: %d\n", p.idade);
+    printf("Nome: %s\n", .nome);
+    printf("Idade: %d\n", .idade);
     printf("Gravidade: %d\n", p.gravidade);
 }
 
@@ -128,30 +127,30 @@ void mostrar_setores() {
 
     printf("\n===== CONSULTAS =====\n");
 
-    if (frenteConsulta > trasConsulta) {
+    if (frenteConsuta > atrasConsulta) {
         printf("Vazio\n");
     }
     else {
-        for (i = frenteConsulta; i <= trasConsulta; i++) {
-            printf("%s\n", consulta[i].nome);
+        for (i = frenteConsuta; i <= atrasConsulta; i++) {
+            printf("%s\n", consuta[i].nome);
         }
     }
 
     printf("\n===== EXAMES =====\n");
 
-    if (frenteExame == -1) {
+    if (frenteExames == -1) {
         printf("Vazio\n");
     }
     else {
 
-        i = frenteExame;
+        i = frenteExames;
 
-        while (i != trasExame) {
+        while (i != atrasExames) {
             printf("%s\n", exames[i].nome);
             i = (i + 1) % MAX_CIRCULAR;
         }
 
-        printf("%s\n", exames[trasExame].nome);
+        printf("%s\n", exames[atrasExames].nome);
     }
 }
 
