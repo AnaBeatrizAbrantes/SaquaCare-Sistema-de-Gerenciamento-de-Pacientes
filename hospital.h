@@ -1,5 +1,5 @@
 // criei o .h
-
+#include <stadio.h>
 #ifndef HOSPITAL_H // se não definido
 #define HOSPITAL_H //agora define >> evita ficar repedindo o arquivo
 
