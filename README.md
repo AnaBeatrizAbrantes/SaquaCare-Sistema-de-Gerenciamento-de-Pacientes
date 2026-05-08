@@ -20,3 +20,7 @@ Implemetação desenvolvida em C para simular o fluxo hospitalar utilizando estr
 
 <img width="176" height="258" alt="image" src="https://github.com/user-attachments/assets/0c57c717-d962-48a6-8a5e-c4eba4666259" />
 
+## Fluxo real dos arquivos
+
+<img width="80" height="92" alt="image" src="https://github.com/user-attachments/assets/43e90950-880e-433e-a5c7-4d0d6ec005fd" />
+
