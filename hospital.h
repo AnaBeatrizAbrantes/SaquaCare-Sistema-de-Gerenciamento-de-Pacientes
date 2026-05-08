@@ -24,5 +24,6 @@ void atender_exame();
 void mostrar_setor();
 void transferir_paciente();
 void relatorios();
+void sair();
 
 #endif
