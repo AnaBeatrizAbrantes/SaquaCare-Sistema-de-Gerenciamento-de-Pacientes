@@ -2,11 +2,14 @@
 #include <stdio.h>
 #include "hospital.h"
 
-int main(){
-   int menu; 
+int main() {
 
-   do {
-        printf("\n------------SAQUACARE-------------'\n");
+    int menu;
+
+    do {
+
+        printf("\n-----------SAQUACARE-----------\n");
+
         printf("1 - Cadastrar paciente\n");
         printf("2 - Atender emergencia\n");
         printf("3 - Atender consulta\n");
@@ -14,7 +17,10 @@ int main(){
         printf("5 - Mostrar setores\n");
         printf("6 - Relatorios\n");
         printf("0 - Sair\n");
-        
+
+        printf("\nEscolha: ");
+        scanf("%d", &menu);
+
         switch(menu) {
 
             case 1:
@@ -42,14 +48,14 @@ int main(){
                 break;
 
             case 0:
-                printf("\nEncerrando sistema...\n");
+                printf("\nSistema encerrado!\n");
                 break;
 
             default:
                 printf("\nOpcao invalida!\n");
         }
 
-   }while(menu != 0);
+    } while(menu != 0);
 
-  return 0;
-} 
+    return 0;
+}
