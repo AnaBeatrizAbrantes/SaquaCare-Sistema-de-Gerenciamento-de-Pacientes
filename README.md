@@ -18,17 +18,5 @@ Implemetação desenvolvida em C para simular o fluxo hospitalar utilizando estr
 
 ## Lógica em fluxograma
 
-Paciente chega
-       ↓
-Sistema analisa gravidade
-       ↓
-Grave? → Emergência (pilha)
+<img width="176" height="258" alt="image" src="https://github.com/user-attachments/assets/0c57c717-d962-48a6-8a5e-c4eba4666259" />
 
-Não grave?
-       ↓
-Consulta → fila
-Exame → fila circular
-       ↓
-Atendimento remove paciente
-       ↓
-Sistema mostra relatórios
