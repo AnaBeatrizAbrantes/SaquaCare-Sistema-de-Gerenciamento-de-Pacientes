@@ -15,7 +15,7 @@ int main(){
         printf("6 - Relatorios\n");
         printf("0 - Sair\n");
         
-        switch(opcao) {
+        switch(menu) {
 
             case 1:
                 cadastrar_paciente();
@@ -49,7 +49,7 @@ int main(){
                 printf("\nOpcao invalida!\n");
         }
 
-   }while(opcao != 0);
+   }while(menu != 0);
 
   return 0;
 } 
