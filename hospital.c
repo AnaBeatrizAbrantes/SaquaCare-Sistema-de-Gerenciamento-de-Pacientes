@@ -64,7 +64,7 @@ void cadastrar_paciente(){
         }
 
         atrasConsulta++;
-        consuta[atrasConsulta] = p;
+        consulta[atrasConsulta] = p;
 
         printf("\nPaciente enviado para CONSULTA!\n");
     }
