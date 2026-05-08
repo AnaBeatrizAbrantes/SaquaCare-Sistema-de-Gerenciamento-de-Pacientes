@@ -157,7 +157,7 @@ void mostrar_setores() {
 
 void relatorios() {
 
-    printf("\n===== RELATORIOS =====\n");
+    printf("\nRELATORIOS\n");
     printf("Total de pacientes cadastrados: %d\n", totalPacientes);
     printf("Total de pacientes atendidos: %d\n", totalAtendidos);
 }
