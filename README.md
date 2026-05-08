@@ -15,3 +15,20 @@ Implemetação desenvolvida em C para simular o fluxo hospitalar utilizando estr
    ```bash
    gcc main.c -o hospital
    ./hospital
+
+## Lógica em fluxograma
+
+Paciente chega
+       ↓
+Sistema analisa gravidade
+       ↓
+Grave? → Emergência (pilha)
+
+Não grave?
+       ↓
+Consulta → fila
+Exame → fila circular
+       ↓
+Atendimento remove paciente
+       ↓
+Sistema mostra relatórios
