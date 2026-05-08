@@ -1,4 +1,4 @@
-//adicionei o arquivo de cabeçalho
-
+//adicionei o arquivo de cabecalho
 #include <stdio.h>
-#include "hospital.h"
+#include <string.h> // adiciona a biblioteca para entender e copiar nomes
+#include "hospital.h" // arquivo cabecalho
