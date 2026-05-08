@@ -8,8 +8,8 @@ int topo = -1;
 
 // O paciente está para consulta na FILA
 
-Paciente consuta[MAX];
-int frenteConsuta = 0;
+Paciente consulta[MAX];
+int frenteConsulta = 0;
 int atrasConsulta = -1;
 
 // o paciente vai fazer exames FILA CIRCULAR
@@ -114,7 +114,7 @@ void mostrar_setores() {
 
     int i;
 
-    printf("\n===== EMERGENCIA =====\n");
+    printf("\nEMERGENCIA \n");
 
     if (topo == -1) {
         printf("Vazio\n");
@@ -125,14 +125,14 @@ void mostrar_setores() {
         }
     }
 
-    printf("\n===== CONSULTAS =====\n");
+    printf("\nCONSULTAS\n");
 
-    if (frenteConsuta > atrasConsulta) {
+    if (frenteConsulta > atrasConsulta) {
         printf("Vazio\n");
     }
     else {
-        for (i = frenteConsuta; i <= atrasConsulta; i++) {
-            printf("%s\n", consuta[i].nome);
+        for (i = frenteConsulta; i <= atrasConsulta; i++) {
+            printf("%s\n", consulta[i].nome);
         }
     }
 
