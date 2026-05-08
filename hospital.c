@@ -92,19 +92,19 @@ void cadastrar_paciente(){
 
 void atender_emergencia() {
 
-    if (frenteExames == atrasExames) {
-        frenteExames = -1;
-        atrasExames = -1;
+    if (topo == -1) {
+        printf("\nEmergencia vazia!\n");
+        return;
     }
-    else {
-        frenteExames = (frenteExames + 1) % MAX_CIRCULAR;
-    }
+
+    Paciente p = emergencia[topo];
+    topo--;
 
     totalAtendidos++;
 
-    printf("\nPaciente atendido no exame:\n");
-    printf("Nome: %s\n", .nome);
-    printf("Idade: %d\n", .idade);
+    printf("\nPaciente atendido na emergencia:\n");
+    printf("Nome: %s\n", p.nome);
+    printf("Idade: %d\n", p.idade);
     printf("Gravidade: %d\n", p.gravidade);
 }
 
