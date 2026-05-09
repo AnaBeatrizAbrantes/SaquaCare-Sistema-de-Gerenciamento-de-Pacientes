@@ -16,6 +16,9 @@ Implemetação desenvolvida em C para simular o fluxo hospitalar utilizando estr
    gcc main.c -o hospital
    ./hospital
 
+## Rode com esse link
+https://www.onlinegdb.com/fork/GK01e7h0m#
+
 ## Lógica em fluxograma
 
 <img width="176" height="258" alt="image" src="https://github.com/user-attachments/assets/0c57c717-d962-48a6-8a5e-c4eba4666259" />
