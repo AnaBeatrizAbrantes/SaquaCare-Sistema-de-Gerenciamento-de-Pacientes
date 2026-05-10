@@ -13,14 +13,6 @@ typedef struct {
     int tipo; // 1-Emergência, 2-Consulta, 3-Exame
 } Paciente;
 
-if Paciente 4 >= 5{
-    printf("Paciente para EMERGENCIA!")
-    return 1; // emergencia
-}
-
-else{
-    return 0;
-}
 
 //ideias das possiveis funcões sumário
 // falando que essas funções existem em algum lugar
