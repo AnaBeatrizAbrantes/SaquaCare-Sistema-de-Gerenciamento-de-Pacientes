@@ -8,7 +8,7 @@ int main() {
 
     do {
 
-        printf("\n-----------SAQUACARE-----------\n");
+        printf("\n-----------HOSPITAL SIMULADO-----------\n");
 
         printf("1 - Cadastrar paciente\n");
         printf("2 - Atender emergencia\n");
