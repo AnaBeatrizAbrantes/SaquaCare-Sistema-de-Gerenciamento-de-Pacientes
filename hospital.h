@@ -3,8 +3,9 @@
 #ifndef HOSPITAL_H // se não definido
 #define HOSPITAL_H //agora define >> evita ficar repedindo o arquivo
 
+ // aqui seria constantes
 #define MAX 10
-#define MAX_CIRCULAR 8 // aqui seria constantes
+#define MAX_CIRCULAR 8  
 
 typedef struct {
     char nome[50];
