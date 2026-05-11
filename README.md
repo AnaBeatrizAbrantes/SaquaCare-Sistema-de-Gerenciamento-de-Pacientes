@@ -16,7 +16,7 @@ hospital utilizando Pilha, Fila e Fila Circular, implementadas com vetores (arra
 1. Tenha um compilador C (como GCC) instalado.
 2. No terminal, use:
    ```bash
-   gcc main.c -o hospital
+   gcc main.c hospital -o
 
 ### TRABALHO DE IMPLEMENTAÇÃO - ESTRUTURA DE DADOS - 3ºPERIODO - ESW - 2026
 *ALUNOS: ANA BEATRIZ ABRANTES DA SILVA , NAYARA EMELLY PEREIRA MENDONÇA.*
