@@ -24,7 +24,7 @@ hospital utilizando Pilha, Fila e Fila Circular, implementadas com vetores (arra
 **ACESSO : [COMPILAR SISTEMA](https://www.onlinegdb.com/fork/kydX4Jp4K) >> ESTE É O LINK DO COMPILADOR ONLINE PRONTO PARA O TESTE:**
 
 
-&#x09;Durante o desenvolvimento do sistema, realizamos pesquisas para entender melhor o funcionamento das estruturas de dados, como pilha, fila e fila circular. Ao longo do processo surgiram algumas dificuldades e dúvidas relacionadas à lógica e implementação em linguagem C, porém conseguimos resolver os problemas gradualmente e finalizar um sistema funcional e executável conforme os requisitos da atividade.
+&#x09;   Durante o desenvolvimento do sistema, realizamos pesquisas para entender melhor o funcionamento das estruturas de dados, como pilha, fila e fila circular. Ao longo do processo surgiram algumas dificuldades e dúvidas relacionadas à lógica e implementação em linguagem C, porém conseguimos resolver os problemas gradualmente e finalizar um sistema funcional e executável conforme os requisitos da atividade.
 
 
 #### DESENVOLVIMENTO
@@ -45,3 +45,8 @@ FORAM CRIADOS 3 ARQUIVOS: **hospital.h , hospital.c e main.c**;
 
 <img width="637" height="594" alt="image" src="https://github.com/user-attachments/assets/e32ccdde-f386-4f70-b1f1-1438d2baf4a9" />
 
+## FONTES DE PESQUISA
+
+[W3SCHOOL](https://www.w3schools.com/c/c_arrays.php)
+[GITHUB - RETIRADO D UM LIVRO DA ALURA](https://github.com/thiagoleiteecarvalho/ed-FilaCircularVetor)
+[YOUTUBE](https://youtu.be/nWHveXK9g_8?si=GeeNYARbvQOqmL5X)
