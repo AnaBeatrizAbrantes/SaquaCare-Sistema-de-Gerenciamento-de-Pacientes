@@ -14,7 +14,6 @@ Implemetação desenvolvida em C para simular o fluxo hospitalar utilizando estr
 2. No terminal, use:
    ```bash
    gcc main.c -o hospital
-   ./hospital
 
 ### TRABALHO DE IMPLEMENTAÇÃO - ESTRUTURA DE DADOS - 3ºPERIODO - ESW - 2026
 *ALUNOS: ANA BEATRIZ ABRANTES DA SILVA , NAYARA EMELLY PEREIRA MENDONÇA.*
