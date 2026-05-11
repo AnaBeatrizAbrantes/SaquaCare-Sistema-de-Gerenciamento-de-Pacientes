@@ -2,14 +2,14 @@
 #include <string.h>
 #include "hospital.h"
 
-Paciente emergencia[MAX];
+Paciente emergencia[MAX]; // ultimo a chegar é o primeiro a ser atendido 
 int topo = -1;
 
-Paciente consulta[MAX];
+Paciente consulta[MAX]; // o primeiro a chegar é atendido primeiro 
 int frenteConsulta = 0;
 int atrasConsulta = -1;
 
-Paciente exames[MAX_CIRCULAR];
+Paciente exames[MAX_CIRCULAR]; // é remover o mais antigo 
 int frenteExames = -1;
 int atrasExames = -1;
 
