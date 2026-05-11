@@ -199,6 +199,61 @@ void mostrar_setores() {
     }
 }
 
+void transferir_paciente(){
+     
+    int destino;
+
+    if (frenteConsulta > atrasConsuta){
+        printf("\nnão há pacientes na consulta!\n")
+        return;
+    }
+
+    Paciente p = consulta[frenteConsulta];
+    frenteConsulta++;
+
+    printf("\nTransferir para:\n");
+    printf("\n1- Emergencia\n");
+    printf("\n2 - Exames\n");
+
+    scanf("%d", &destino);
+
+    if (destino == 1){
+        if(topo == MAX -1){
+            printf("\nEmergencia cheia!\n");
+            return;
+        }
+
+        topo++;
+        emergencia[topo] = p;
+        printf("\nPaciente tranferido para EMERGENCIA\n");
+    }
+
+     else if (destino == 2) {
+
+        if ((atrasExames + 1) % MAX_CIRCULAR == frenteExames) {
+
+            frenteExames = (frenteExames + 1) % MAX_CIRCULAR;
+        }
+
+        if (frenteExames == -1) {
+            frenteExames = 0;
+        }
+
+        atrasExames = (atrasExames + 1) % MAX_CIRCULAR;
+
+        exames[atrasExames] = p;
+
+        printf("\nPaciente transferido para EXAMES!\n");
+    }
+
+    else {
+
+        printf("\nDestino invalido!\n");
+    }
+}
+
+ 
+
 void relatorios() {
 
     printf("\n RELATORIOS\n");

@@ -15,7 +15,8 @@ int main() {
         printf("3 - Atender consulta\n");
         printf("4 - Atender exame\n");
         printf("5 - Mostrar setores\n");
-        printf("6 - Relatorios\n");
+        printf("6 - Transferir paciente\n");
+        printf("7 - Relatorios\n");
         printf("0 - Sair\n");
 
         printf("\nEscolha: ");
@@ -45,6 +46,10 @@ int main() {
                 break;
 
             case 6:
+                transferir_paciente();
+                break;
+
+            case 7:
                 relatorios();
                 break;
 
