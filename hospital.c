@@ -66,7 +66,7 @@ void cadastrar_paciente() {
         if ((atrasExames + 1) % MAX_CIRCULAR == frenteExames) {
 
             printf("\nFila de exames cheia!\n");
-            printf("Paciente mais antigo removido automaticamente.\n");
+            printf("Paciente mais antigo removido .\n");
 
             frenteExames = (frenteExames + 1) % MAX_CIRCULAR;
         }
@@ -212,8 +212,8 @@ void transferir_paciente(){
     frenteConsulta++;
 
     printf("\nTransferir para:\n");
-    printf("\n1- Emergencia\n");
-    printf("\n2 - Exames\n");
+    printf("\n1 > Emergencia\n");
+    printf("\n2 > Exames\n");
 
     scanf("%d", &destino);
 
@@ -256,7 +256,7 @@ void transferir_paciente(){
 
 void relatorios() {
 
-    printf("\n RELATORIOS\n");
+    printf("\nRegistros\n");
 
     printf("Total de pacientes cadastrados: %d\n", totalPacientes);
 
