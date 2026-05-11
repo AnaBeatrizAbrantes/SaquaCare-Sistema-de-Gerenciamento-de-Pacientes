@@ -22,7 +22,7 @@ void cadastrar_paciente();
 void atender_emergencia();
 void atender_consulta();
 void atender_exame();
-void mostrar_setor();
+void mostrar_setores();
 void transferir_paciente();
 void relatorios();
 void sair();
