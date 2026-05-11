@@ -42,3 +42,8 @@ FORAM CRIADOS 3 ARQUIVOS: **hospital.h , hospital.c e main.c**;
 
 
 **Obs: os demais arquivos não se incluem no sistema que será compilado, sendo apenas anotações, códigos de exemplo e entre outros.**
+
+## INTERFACE NO TERMINAL
+
+<img width="637" height="594" alt="image" src="https://github.com/user-attachments/assets/e32ccdde-f386-4f70-b1f1-1438d2baf4a9" />
+
