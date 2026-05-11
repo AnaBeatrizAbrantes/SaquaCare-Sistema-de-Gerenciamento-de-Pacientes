@@ -28,7 +28,8 @@ int main() {
                 break;
 
             case 2:
-                atender_emergencia();
+                atender_emergencia(); // detalhe: se a gravidade for 4 >= 5 o sisteminha evita que escolha outro que não seja emergencia, 
+                //levando obrigatoriamente para a parte de emergencia  
                 break;
 
             case 3:
