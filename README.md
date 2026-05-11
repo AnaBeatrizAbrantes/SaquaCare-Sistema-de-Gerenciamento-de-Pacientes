@@ -4,6 +4,11 @@
 
 Implemetação desenvolvida em C para simular o fluxo hospitalar utilizando estruturas de dados lineares.
 
+## Objetivo
+
+Desenvolver um sistema em linguagem C que simule o fluxo de pacientes em um 
+hospital utilizando Pilha, Fila e Fila Circular, implementadas com vetores (arrays).
+
 ## Regras
 - **Emergência (Pilha):** Atendimento prioritário para gravidade 4 e 5.
 - **Consultas (Fila):** Ordem de chegada para atendimentos agendados.
