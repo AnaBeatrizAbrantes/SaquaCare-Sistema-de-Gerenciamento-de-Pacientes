@@ -45,3 +45,8 @@ FORAM CRIADOS 3 ARQUIVOS: **hospital.h , hospital.c e main.c**;
 
 <img width="637" height="594" alt="image" src="https://github.com/user-attachments/assets/e32ccdde-f386-4f70-b1f1-1438d2baf4a9" />
 
+## FONTES DE PESQUISA
+
+[W3SCHOOL](https://www.w3schools.com/c/c_arrays.php)
+[GITHUB - RETIRADO D UM LIVRO DA ALURA](https://github.com/thiagoleiteecarvalho/ed-FilaCircularVetor)
+[YOUTUBE](https://youtu.be/nWHveXK9g_8?si=GeeNYARbvQOqmL5X)
