@@ -19,7 +19,7 @@ int main() {
         printf("0 - Sair\n");
 
         printf("\nEscolha: ");
-        scanf("%d", &menu); // O MSM QUE INPUT("")
+        scanf("%d", &menu); 
 
         switch(menu) {
 
