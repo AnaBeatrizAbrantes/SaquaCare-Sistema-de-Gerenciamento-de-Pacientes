@@ -19,7 +19,7 @@ Implemetação desenvolvida em C para simular o fluxo hospitalar utilizando estr
 ### TRABALHO DE IMPLEMENTAÇÃO - ESTRUTURA DE DADOS - 3ºPERIODO - ESW - 2026
 *ALUNOS: ANA BEATRIZ ABRANTES DA SILVA , NAYARA EMELLY PEREIRA MENDONÇA.*
 
-ACESSO : [ACESSE AQUI]([https://github.com/AnaBeatrizAbrantes/SaquaCare-Sistema-de-Gerenciamento-de-Pacientes](https://www.onlinegdb.com/fork/GK01e7h0m#)) >> ESTARÁ O LINK DO COMPILADOR ONLINE PRONTO PARA O TESTE DEMONSTRATIVO
+ACESSO : [ACESSE AQUI](https://www.onlinegdb.com/fork/GK01e7h0m#) >> ESTARÁ O LINK DO COMPILADOR ONLINE PRONTO PARA O TESTE DEMONSTRATIVO
 
 
 &#x09;Durante o desenvolvimento do sistema, realizamos pesquisas para entender melhor o funcionamento das estruturas de dados, como pilha, fila e fila circular. Ao longo do processo surgiram algumas dificuldades e dúvidas relacionadas à lógica e implementação em linguagem C, porém conseguimos resolver os problemas gradualmente e finalizar um sistema funcional e executável conforme os requisitos da atividade.
