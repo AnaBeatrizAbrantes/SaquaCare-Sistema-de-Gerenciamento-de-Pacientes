@@ -1,5 +1,3 @@
-<img width="367" height="137" alt="image" src="..." />
-
 # Hospital Simulado - Gerenciamento de Pacientes
 
 Implemetação desenvolvida em C para simular o fluxo hospitalar utilizando estruturas de dados lineares.
