@@ -8,23 +8,23 @@ int main() {
 
     do {
 
-        printf("\nTRABALHO DE IMPLEMENTAÇÃO\n")
+        printf("\n< TRABALHO DE IMPLEMENTAÇÃO >\n");
 
         printf("\n- H O S P I T A L   S I M U L A D O -\n");
 
-        printf("1 - Cadastrar\n");
+        printf("1 > Cadastrar\n");
         
-        printf("2 - Atender emergencia\n");
-        printf("3 - Atender consulta\n");
-        printf("4 - Atender exame\n");
+        printf("2 > Atender emergencia\n");
+        printf("3 > Atender consulta\n");
+        printf("4 > Atender exame\n");
         
-        printf("5 - Mostrar setores\n");
-        printf("6 - Transferir paciente\n");
-        printf("7 - Registros de Pacientes\n");
+        printf("5 > Mostrar setores\n");
+        printf("6 > Transferir paciente\n");
+        printf("7 > Registros de Pacientes\n");
         
-        printf("0 - Sair\n");
+        printf("0 > Sair\n");
 
-        printf("\n>> ");
+        printf("\n>>> ");
         scanf("%d", &menu); 
 
         switch(menu) {
